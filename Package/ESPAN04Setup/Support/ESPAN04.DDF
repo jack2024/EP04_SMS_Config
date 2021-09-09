@@ -1,0 +1,39 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="ESPAN-04 V1.5.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"ESPAN-04 V1.5.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"MSDBRPTR.DLL"
+"MSSTDFMT.DLL"
+"MSDERUN.DLL"
+"msado25.tlb"
+"scrrun.dll"
+"msvcrt.dll"
+"MSCDRUN.DLL"
+"MSRDO20.DLL"
+"RDOCURS.DLL"
+"EXCEL.EXE"
+"dao360.dll"
+"TABCTL32.OCX"
+"MSCOMM32.OCX"
+"COMDLG32.OCX"
+"MDAC_TYP.EXE"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"

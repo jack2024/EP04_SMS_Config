@@ -1,0 +1,5 @@
+The cab file for your application has been built as 'D:\jobESP\ESPAN-04\Software\Config2\Package\ESPAN04V1_7Setup\ESPAN-04 V1.7.CAB'.
+
+There is also a batch file in the support directory (D:\jobESP\ESPAN-04\Software\Config2\Package\ESPAN04V1_7Setup\Support\ESPAN-04 V1.7.BAT) that will allow you to recreate the cab file in case you make changes to some of the files.
+
+You have included mdac_typ.exe in your installation package.  If you will be installing this package on a Windows 95/98 system, it will require DCOM98 to install properly.
