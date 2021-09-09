@@ -1,25 +1,121 @@
 VERSION 5.00
 Begin VB.Form SMSsetting 
    Caption         =   "Faultname"
-   ClientHeight    =   7215
+   ClientHeight    =   8850
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   4665
-   ScaleHeight     =   7215
-   ScaleWidth      =   4665
+   ClientWidth     =   9765
+   ScaleHeight     =   8850
+   ScaleWidth      =   9765
    StartUpPosition =   3  'Windows Default
+   Begin VB.TextBox Text19 
+      Height          =   375
+      Left            =   5800
+      TabIndex        =   36
+      Text            =   "Fault_19"
+      Top             =   6120
+      Width           =   3375
+   End
+   Begin VB.TextBox Text11 
+      Height          =   375
+      Left            =   5800
+      TabIndex        =   19
+      Text            =   "Fault_11"
+      Top             =   1800
+      Width           =   3375
+   End
    Begin VB.Frame Frame1 
-      Height          =   7095
+      Height          =   8685
       Left            =   120
       TabIndex        =   0
       Top             =   0
-      Width           =   4455
+      Width           =   9400
+      Begin VB.TextBox Text20 
+         Height          =   375
+         Left            =   5700
+         TabIndex        =   37
+         Text            =   "Fault_20"
+         Top             =   6840
+         Width           =   3375
+      End
+      Begin VB.TextBox Text18 
+         Height          =   375
+         Left            =   960
+         TabIndex        =   35
+         Text            =   "Fault_18"
+         Top             =   6840
+         Width           =   3375
+      End
+      Begin VB.TextBox Text17 
+         Height          =   375
+         Left            =   960
+         TabIndex        =   34
+         Text            =   "Fault_17"
+         Top             =   6120
+         Width           =   3375
+      End
+      Begin VB.TextBox Text10 
+         Height          =   375
+         Left            =   5700
+         TabIndex        =   31
+         Text            =   "Fault_10"
+         Top             =   1080
+         Width           =   3375
+      End
+      Begin VB.TextBox Text16 
+         Height          =   375
+         Left            =   5700
+         TabIndex        =   24
+         Text            =   "Fault_16"
+         Top             =   5400
+         Width           =   3375
+      End
+      Begin VB.TextBox Text15 
+         Height          =   375
+         Left            =   5700
+         TabIndex        =   23
+         Text            =   "Fault_15"
+         Top             =   4680
+         Width           =   3375
+      End
+      Begin VB.TextBox Text14 
+         Height          =   375
+         Left            =   5700
+         TabIndex        =   22
+         Text            =   "Fault_14"
+         Top             =   3960
+         Width           =   3375
+      End
+      Begin VB.TextBox Text13 
+         Height          =   375
+         Left            =   5700
+         TabIndex        =   21
+         Text            =   "Fault_13"
+         Top             =   3240
+         Width           =   3375
+      End
+      Begin VB.TextBox Text12 
+         Height          =   375
+         Left            =   5700
+         TabIndex        =   20
+         Text            =   "Fault_12"
+         Top             =   2520
+         Width           =   3375
+      End
+      Begin VB.TextBox Text9 
+         Height          =   375
+         Left            =   5700
+         TabIndex        =   17
+         Text            =   "Fault_9"
+         Top             =   360
+         Width           =   3375
+      End
       Begin VB.TextBox Text8 
          Height          =   375
          Left            =   960
          MaxLength       =   30
          TabIndex        =   9
-         Text            =   "Fault_8Fault_8Fault_8"
+         Text            =   "Fault_8"
          Top             =   5400
          Width           =   3375
       End
@@ -28,7 +124,7 @@ Begin VB.Form SMSsetting
          Left            =   960
          MaxLength       =   30
          TabIndex        =   8
-         Text            =   "Fault_7Fault_7Fault_7"
+         Text            =   "Fault_7"
          Top             =   4680
          Width           =   3375
       End
@@ -37,7 +133,7 @@ Begin VB.Form SMSsetting
          Left            =   960
          MaxLength       =   30
          TabIndex        =   7
-         Text            =   "Fault_6Fault_6Fault_6"
+         Text            =   "Fault_6"
          Top             =   3960
          Width           =   3375
       End
@@ -46,7 +142,7 @@ Begin VB.Form SMSsetting
          Left            =   960
          MaxLength       =   30
          TabIndex        =   6
-         Text            =   "Fault_5Fault_5Fault_5"
+         Text            =   "Fault_5"
          Top             =   3240
          Width           =   3375
       End
@@ -55,7 +151,7 @@ Begin VB.Form SMSsetting
          Left            =   960
          MaxLength       =   30
          TabIndex        =   5
-         Text            =   "Fault_4Fault_4Fault_4"
+         Text            =   "Fault_4"
          Top             =   2520
          Width           =   3375
       End
@@ -64,7 +160,7 @@ Begin VB.Form SMSsetting
          Left            =   960
          MaxLength       =   30
          TabIndex        =   4
-         Text            =   "Fault_3Fault_3Fault_3"
+         Text            =   "Fault_3"
          Top             =   1800
          Width           =   3375
       End
@@ -73,7 +169,7 @@ Begin VB.Form SMSsetting
          Left            =   960
          MaxLength       =   30
          TabIndex        =   3
-         Text            =   "Fault_2Fault_2Fault_2"
+         Text            =   "Fault_2"
          Top             =   1080
          Width           =   3375
       End
@@ -82,23 +178,127 @@ Begin VB.Form SMSsetting
          Left            =   960
          MaxLength       =   30
          TabIndex        =   2
-         Text            =   "Fault_1Fault_1Fault_1"
+         Text            =   "Fault_1"
          Top             =   360
          Width           =   3375
       End
       Begin VB.CommandButton SAVE_btn 
          Caption         =   "SAVE"
          Height          =   615
-         Left            =   1320
+         Left            =   4000
          TabIndex        =   1
-         Top             =   6120
+         Top             =   7600
          Width           =   2055
+      End
+      Begin VB.Label Label20 
+         Caption         =   "INPUT20"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   41
+         Top             =   6900
+         Width           =   735
+      End
+      Begin VB.Label Label19 
+         Caption         =   "INPUT19"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   40
+         Top             =   6180
+         Width           =   735
+      End
+      Begin VB.Label Label18 
+         Caption         =   "INPUT18"
+         Height          =   255
+         Left            =   120
+         TabIndex        =   39
+         Top             =   6900
+         Width           =   735
+      End
+      Begin VB.Label Label17 
+         Caption         =   "INPUT17"
+         Height          =   255
+         Left            =   120
+         TabIndex        =   38
+         Top             =   6180
+         Width           =   735
+      End
+      Begin VB.Label Label10 
+         Caption         =   "INPUT10"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   33
+         Top             =   1195
+         Width           =   735
+      End
+      Begin VB.Label Label2 
+         Caption         =   "INPUT2"
+         Height          =   255
+         Left            =   200
+         TabIndex        =   32
+         Top             =   1195
+         Width           =   735
+      End
+      Begin VB.Label Label16 
+         Caption         =   "INPUT16"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   30
+         Top             =   5490
+         Width           =   735
+      End
+      Begin VB.Label Label15 
+         Caption         =   "INPUT15"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   29
+         Top             =   4770
+         Width           =   735
+      End
+      Begin VB.Label Label14 
+         Caption         =   "INPUT14"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   28
+         Top             =   4055
+         Width           =   735
+      End
+      Begin VB.Label Label13 
+         Caption         =   "INPUT13"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   27
+         Top             =   3360
+         Width           =   735
+      End
+      Begin VB.Label Label12 
+         Caption         =   "INPUT12"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   26
+         Top             =   2625
+         Width           =   735
+      End
+      Begin VB.Label Label11 
+         Caption         =   "INPUT11"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   25
+         Top             =   1910
+         Width           =   735
+      End
+      Begin VB.Label Label9 
+         Caption         =   "INPUT9"
+         Height          =   255
+         Left            =   4800
+         TabIndex        =   18
+         Top             =   420
+         Width           =   735
       End
       Begin VB.Label Label8 
          Caption         =   "INPUT8"
          Height          =   375
          Left            =   200
-         TabIndex        =   17
+         TabIndex        =   16
          Top             =   5490
          Width           =   735
       End
@@ -106,7 +306,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT7"
          Height          =   255
          Left            =   200
-         TabIndex        =   16
+         TabIndex        =   15
          Top             =   4770
          Width           =   735
       End
@@ -114,7 +314,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT6"
          Height          =   255
          Left            =   200
-         TabIndex        =   15
+         TabIndex        =   14
          Top             =   4055
          Width           =   735
       End
@@ -122,15 +322,15 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT5"
          Height          =   255
          Left            =   200
-         TabIndex        =   14
-         Top             =   3340
+         TabIndex        =   13
+         Top             =   3360
          Width           =   735
       End
       Begin VB.Label Label4 
          Caption         =   "INPUT4"
          Height          =   255
          Left            =   200
-         TabIndex        =   13
+         TabIndex        =   12
          Top             =   2625
          Width           =   735
       End
@@ -138,16 +338,8 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT3"
          Height          =   255
          Left            =   200
-         TabIndex        =   12
-         Top             =   1910
-         Width           =   735
-      End
-      Begin VB.Label Label2 
-         Caption         =   "INPUT2"
-         Height          =   255
-         Left            =   200
          TabIndex        =   11
-         Top             =   1195
+         Top             =   1910
          Width           =   735
       End
       Begin VB.Label Label1 
@@ -155,7 +347,7 @@ Begin VB.Form SMSsetting
          Height          =   255
          Left            =   200
          TabIndex        =   10
-         Top             =   480
+         Top             =   420
          Width           =   735
       End
    End
