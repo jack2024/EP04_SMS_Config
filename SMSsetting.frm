@@ -1,39 +1,43 @@
 VERSION 5.00
 Begin VB.Form SMSsetting 
-   Caption         =   "Faultname"
-   ClientHeight    =   8850
+   Caption         =   "FaultName Setting"
+   ClientHeight    =   8520
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   9765
-   ScaleHeight     =   8850
-   ScaleWidth      =   9765
+   ClientWidth     =   9660
+   Icon            =   "SMSsetting.frx":0000
+   ScaleHeight     =   8520
+   ScaleWidth      =   9660
    StartUpPosition =   3  'Windows Default
-   Begin VB.TextBox Text19 
-      Height          =   375
-      Left            =   5800
-      TabIndex        =   36
-      Text            =   "Fault_19"
-      Top             =   6120
-      Width           =   3375
-   End
-   Begin VB.TextBox Text11 
-      Height          =   375
-      Left            =   5800
-      TabIndex        =   19
-      Text            =   "Fault_11"
-      Top             =   1800
-      Width           =   3375
-   End
    Begin VB.Frame Frame1 
-      Height          =   8685
+      Height          =   8400
       Left            =   120
       TabIndex        =   0
       Top             =   0
       Width           =   9400
+      Begin VB.TextBox Text19 
+         Height          =   375
+         Left            =   5700
+         MaxLength       =   30
+         TabIndex        =   41
+         Text            =   "Fault_15"
+         Top             =   6120
+         Width           =   3375
+      End
+      Begin VB.TextBox Text11 
+         Height          =   375
+         Left            =   5700
+         MaxLength       =   30
+         TabIndex        =   40
+         Text            =   "Fault_15"
+         Top             =   1800
+         Width           =   3375
+      End
       Begin VB.TextBox Text20 
          Height          =   375
          Left            =   5700
-         TabIndex        =   37
+         MaxLength       =   30
+         TabIndex        =   35
          Text            =   "Fault_20"
          Top             =   6840
          Width           =   3375
@@ -41,7 +45,8 @@ Begin VB.Form SMSsetting
       Begin VB.TextBox Text18 
          Height          =   375
          Left            =   960
-         TabIndex        =   35
+         MaxLength       =   30
+         TabIndex        =   34
          Text            =   "Fault_18"
          Top             =   6840
          Width           =   3375
@@ -49,7 +54,8 @@ Begin VB.Form SMSsetting
       Begin VB.TextBox Text17 
          Height          =   375
          Left            =   960
-         TabIndex        =   34
+         MaxLength       =   30
+         TabIndex        =   33
          Text            =   "Fault_17"
          Top             =   6120
          Width           =   3375
@@ -57,7 +63,8 @@ Begin VB.Form SMSsetting
       Begin VB.TextBox Text10 
          Height          =   375
          Left            =   5700
-         TabIndex        =   31
+         MaxLength       =   30
+         TabIndex        =   30
          Text            =   "Fault_10"
          Top             =   1080
          Width           =   3375
@@ -65,7 +72,8 @@ Begin VB.Form SMSsetting
       Begin VB.TextBox Text16 
          Height          =   375
          Left            =   5700
-         TabIndex        =   24
+         MaxLength       =   30
+         TabIndex        =   23
          Text            =   "Fault_16"
          Top             =   5400
          Width           =   3375
@@ -73,7 +81,8 @@ Begin VB.Form SMSsetting
       Begin VB.TextBox Text15 
          Height          =   375
          Left            =   5700
-         TabIndex        =   23
+         MaxLength       =   30
+         TabIndex        =   22
          Text            =   "Fault_15"
          Top             =   4680
          Width           =   3375
@@ -81,7 +90,8 @@ Begin VB.Form SMSsetting
       Begin VB.TextBox Text14 
          Height          =   375
          Left            =   5700
-         TabIndex        =   22
+         MaxLength       =   30
+         TabIndex        =   21
          Text            =   "Fault_14"
          Top             =   3960
          Width           =   3375
@@ -89,7 +99,8 @@ Begin VB.Form SMSsetting
       Begin VB.TextBox Text13 
          Height          =   375
          Left            =   5700
-         TabIndex        =   21
+         MaxLength       =   30
+         TabIndex        =   20
          Text            =   "Fault_13"
          Top             =   3240
          Width           =   3375
@@ -97,7 +108,8 @@ Begin VB.Form SMSsetting
       Begin VB.TextBox Text12 
          Height          =   375
          Left            =   5700
-         TabIndex        =   20
+         MaxLength       =   30
+         TabIndex        =   19
          Text            =   "Fault_12"
          Top             =   2520
          Width           =   3375
@@ -105,6 +117,7 @@ Begin VB.Form SMSsetting
       Begin VB.TextBox Text9 
          Height          =   375
          Left            =   5700
+         MaxLength       =   30
          TabIndex        =   17
          Text            =   "Fault_9"
          Top             =   360
@@ -194,7 +207,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT20"
          Height          =   255
          Left            =   4800
-         TabIndex        =   41
+         TabIndex        =   39
          Top             =   6900
          Width           =   735
       End
@@ -202,7 +215,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT19"
          Height          =   255
          Left            =   4800
-         TabIndex        =   40
+         TabIndex        =   38
          Top             =   6180
          Width           =   735
       End
@@ -210,7 +223,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT18"
          Height          =   255
          Left            =   120
-         TabIndex        =   39
+         TabIndex        =   37
          Top             =   6900
          Width           =   735
       End
@@ -218,7 +231,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT17"
          Height          =   255
          Left            =   120
-         TabIndex        =   38
+         TabIndex        =   36
          Top             =   6180
          Width           =   735
       End
@@ -226,7 +239,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT10"
          Height          =   255
          Left            =   4800
-         TabIndex        =   33
+         TabIndex        =   32
          Top             =   1195
          Width           =   735
       End
@@ -234,7 +247,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT2"
          Height          =   255
          Left            =   200
-         TabIndex        =   32
+         TabIndex        =   31
          Top             =   1195
          Width           =   735
       End
@@ -242,7 +255,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT16"
          Height          =   255
          Left            =   4800
-         TabIndex        =   30
+         TabIndex        =   29
          Top             =   5490
          Width           =   735
       End
@@ -250,7 +263,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT15"
          Height          =   255
          Left            =   4800
-         TabIndex        =   29
+         TabIndex        =   28
          Top             =   4770
          Width           =   735
       End
@@ -258,7 +271,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT14"
          Height          =   255
          Left            =   4800
-         TabIndex        =   28
+         TabIndex        =   27
          Top             =   4055
          Width           =   735
       End
@@ -266,7 +279,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT13"
          Height          =   255
          Left            =   4800
-         TabIndex        =   27
+         TabIndex        =   26
          Top             =   3360
          Width           =   735
       End
@@ -274,7 +287,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT12"
          Height          =   255
          Left            =   4800
-         TabIndex        =   26
+         TabIndex        =   25
          Top             =   2625
          Width           =   735
       End
@@ -282,7 +295,7 @@ Begin VB.Form SMSsetting
          Caption         =   "INPUT11"
          Height          =   255
          Left            =   4800
-         TabIndex        =   25
+         TabIndex        =   24
          Top             =   1910
          Width           =   735
       End
@@ -875,6 +888,67 @@ Private Sub Form_Load()
     CRCTable(509) = &H81
     CRCTable(510) = &H80
     CRCTable(511) = &H40
+
+    
+    If frmMainConfig.OptNoInput8.Value = True Then
+       SMSsetting.Height = 7770
+       SMSsetting.Width = 4900
+       SAVE_btn.Top = 6100
+       SAVE_btn.Left = 1300
+       Frame1.Height = 7000
+       Frame1.Width = 4500
+       Text17.Visible = False
+       Text18.Visible = False
+       Label17.Visible = False
+       Label18.Visible = False
+    ElseIf frmMainConfig.OptNoInput10.Value = True Then
+       SMSsetting.Height = 9100
+       SMSsetting.Width = 4900
+       SAVE_btn.Top = 7600
+       SAVE_btn.Left = 1300
+       Frame1.Height = 8400
+       Frame1.Width = 4500
+       Text17.Visible = False
+       Text18.Visible = False
+       Label17.Visible = False
+       Label18.Visible = False
+       Label9.Left = 120
+       Label10.Left = 120
+       Text9.Left = 960
+       Text10.Left = 960
+       
+       Label9.Top = 6180
+       Label10.Top = 6900
+       Text9.Top = 6120
+       Text10.Top = 6840
+       
+       
+    ElseIf frmMainConfig.OptNoInput16.Value = True Then
+       SMSsetting.Height = 7770
+       SMSsetting.Width = 9900
+       SAVE_btn.Top = 6100
+       SAVE_btn.Left = 4000
+       Frame1.Height = 7000
+       Frame1.Width = 9400
+       Text17.Visible = False
+       Text18.Visible = False
+       Label17.Visible = False
+       Label18.Visible = False
+       Text19.Visible = False
+       Text20.Visible = False
+       Label19.Visible = False
+       Label20.Visible = False
+    ElseIf frmMainConfig.OptNoInput20.Value = True Then
+       SMSsetting.Height = 9100
+       SMSsetting.Width = 9900
+       SAVE_btn.Top = 7600
+       SAVE_btn.Left = 4000
+       Frame1.Height = 8400
+       Frame1.Width = 9400
+    End If
+        
+    
+    
 End Sub
 
 Private Sub CRC_16(ByVal Data As String, Length As Integer)
@@ -927,22 +1001,88 @@ Private Sub SAVE_btn_Click()
             End If
         
             Data = ""
-            mymassage = ""
-            'Data = Chr(Val(Text1.Text)) + Chr(33) + Chr(8) + Chr(InputType1_8) + Chr(InputType9_16) + Chr(FaultType1_8) + Chr(FaultType9_16) + Chr(OutputType1_8) + Chr(OutputType9_16) + Chr(FlashRate) + Chr(Val(Text3.Text))
-                                                '0x0D
-            mymassage = mymassage + Text1.Text + Chr(13)
-            mymassage = mymassage + Text2.Text + Chr(13)
-            mymassage = mymassage + Text3.Text + Chr(13)
-            mymassage = mymassage + Text4.Text + Chr(13)
-            mymassage = mymassage + Text5.Text + Chr(13)
-            mymassage = mymassage + Text6.Text + Chr(13)
-            mymassage = mymassage + Text7.Text + Chr(13)
-            mymassage = mymassage + Text8.Text + Chr(13)
-                                                
+            mymassage = "" 'Clear Buffer
+                                    
+            If frmMainConfig.OptNoInput8.Value = True Then
+                mymassage = mymassage + Text1.Text + Chr(13)
+                mymassage = mymassage + Text2.Text + Chr(13)
+                mymassage = mymassage + Text3.Text + Chr(13)
+                mymassage = mymassage + Text4.Text + Chr(13)
+                mymassage = mymassage + Text5.Text + Chr(13)
+                mymassage = mymassage + Text6.Text + Chr(13)
+                mymassage = mymassage + Text7.Text + Chr(13)
+                mymassage = mymassage + Text8.Text + Chr(13)
+               
+            ElseIf frmMainConfig.OptNoInput10.Value = True Then
+                mymassage = mymassage + Text1.Text + Chr(13)
+                mymassage = mymassage + Text2.Text + Chr(13)
+                mymassage = mymassage + Text3.Text + Chr(13)
+                mymassage = mymassage + Text4.Text + Chr(13)
+                mymassage = mymassage + Text5.Text + Chr(13)
+                mymassage = mymassage + Text6.Text + Chr(13)
+                mymassage = mymassage + Text7.Text + Chr(13)
+                mymassage = mymassage + Text8.Text + Chr(13)
+                mymassage = mymassage + Text9.Text + Chr(13)
+                mymassage = mymassage + Text10.Text + Chr(13)
+               
+            ElseIf frmMainConfig.OptNoInput16.Value = True Then
+                mymassage = mymassage + Text1.Text + Chr(13)
+                mymassage = mymassage + Text2.Text + Chr(13)
+                mymassage = mymassage + Text3.Text + Chr(13)
+                mymassage = mymassage + Text4.Text + Chr(13)
+                mymassage = mymassage + Text5.Text + Chr(13)
+                mymassage = mymassage + Text6.Text + Chr(13)
+                mymassage = mymassage + Text7.Text + Chr(13)
+                mymassage = mymassage + Text8.Text + Chr(13)
+                mymassage = mymassage + Text9.Text + Chr(13)
+                mymassage = mymassage + Text10.Text + Chr(13)
+                mymassage = mymassage + Text11.Text + Chr(13)
+                mymassage = mymassage + Text12.Text + Chr(13)
+                mymassage = mymassage + Text13.Text + Chr(13)
+                mymassage = mymassage + Text14.Text + Chr(13)
+                mymassage = mymassage + Text15.Text + Chr(13)
+                mymassage = mymassage + Text16.Text + Chr(13)
+               
+            ElseIf frmMainConfig.OptNoInput20.Value = True Then
+               mymassage = mymassage + Text1.Text + Chr(13)
+                mymassage = mymassage + Text2.Text + Chr(13)
+                mymassage = mymassage + Text3.Text + Chr(13)
+                mymassage = mymassage + Text4.Text + Chr(13)
+                mymassage = mymassage + Text5.Text + Chr(13)
+                mymassage = mymassage + Text6.Text + Chr(13)
+                mymassage = mymassage + Text7.Text + Chr(13)
+                mymassage = mymassage + Text8.Text + Chr(13)
+                mymassage = mymassage + Text9.Text + Chr(13)
+                mymassage = mymassage + Text10.Text + Chr(13)
+                mymassage = mymassage + Text11.Text + Chr(13)
+                mymassage = mymassage + Text12.Text + Chr(13)
+                mymassage = mymassage + Text13.Text + Chr(13)
+                mymassage = mymassage + Text14.Text + Chr(13)
+                mymassage = mymassage + Text15.Text + Chr(13)
+                mymassage = mymassage + Text16.Text + Chr(13)
+                mymassage = mymassage + Text17.Text + Chr(13)
+                mymassage = mymassage + Text18.Text + Chr(13)
+                mymassage = mymassage + Text19.Text + Chr(13)
+                mymassage = mymassage + Text20.Text + Chr(13)
+            End If
+                                               
             Dim massagelen As Integer
+            Dim Hi_maassagelen As Byte
+            Dim Lo_maassagelen As Byte
+            Dim testlen As Integer
             massagelen = Len(mymassage)
-                                                                '0x22  WRITE FAULTNAME
-            Data = Chr(Val(frmMainConfig.TextAddrNow.Text)) + Chr(34) + Chr(massagelen) '59 are data range(62) -3
+            If massagelen < 100 Then
+                Hi_maassagelen = 0
+                Lo_maassagelen = massagelen Mod 100
+            Else
+                Hi_maassagelen = massagelen / 100
+                Lo_maassagelen = massagelen Mod 100
+            End If
+            
+            testlen = (Hi_maassagelen * 100) + Lo_maassagelen ' test data
+                                                             '0x22  WRITE FAULTNAME
+            ' Data = Chr(Val(frmMainConfig.TextAddrNow.Text)) + Chr(34) + Chr(massagelen) '59 are data range(62) -3
+            Data = Chr(Val(frmMainConfig.TextAddrNow.Text)) + Chr(34) + Chr(Hi_maassagelen) + Chr(Lo_maassagelen)
             
             Data = Data + mymassage
             

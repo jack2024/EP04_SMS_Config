@@ -1651,6 +1651,8 @@ End Sub
 
 
 
+
+
 Private Sub TimeAllChange_Click()
     ComboT1.ListIndex = cbbFaultDelayTime.ListIndex
     ComboT2.ListIndex = cbbFaultDelayTime.ListIndex
@@ -1708,8 +1710,6 @@ Dim Data As String
             Loop
             MsgBox "DOWNLOAD COMPLETED", vbInformation, "ESPAN-01"
 End Sub
-
-
 
 Private Sub CreateLabelmenu_Click()
     Form20Point.Show
