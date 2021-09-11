@@ -1,4 +1,4 @@
-frmMainConfig = 0, 0, 1101, 946, , 296, 63, 1501, 697, C
+frmMainConfig = 6, 5, 1204, 951, , 296, 63, 1501, 697, C
 InputProperties = 0, 0, 0, 0, C, 0, 0, 0, 0, C
 frmSetup = 104, 104, 1281, 738, C, 78, 78, 1255, 712, C
 frmSetup2_2 = 0, 0, 0, 0, C, 130, 130, 1307, 764, C
@@ -6,4 +6,4 @@ Form8Point = 0, 0, 0, 0, C, 0, 0, 0, 0, C
 Form20Point = 182, 182, 1359, 816, C, 156, 156, 1333, 790, C
 FormPrint20preview = 0, 0, 0, 0, C, 0, 0, 0, 0, C
 frmResizeFont = 0, 0, 0, 0, C, 0, 0, 0, 0, C
-SMSsetting = 23, 2, 1142, 945, Z, 78, 78, 893, 807, C
+SMSsetting = 89, 7, 1270, 937, , 78, 78, 893, 807, C

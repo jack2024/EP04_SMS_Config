@@ -2808,7 +2808,7 @@ Dim i As Integer
             CommBuff(i) = Asc(Mid(Buffer, i + 1, 1))
         Next i
         
-        If CommBuff(0) = TextAddrNow.Text And CommBuff(1) = 33 Then
+        If CommBuff(0) = TextAddrNow.Text And (CommBuff(1) = 33 Or CommBuff(1) = 34) Then
             CommState = "IDLE"
             Timeout = 0
             MsgBox "DOWNLOAD COMPLETED", vbInformation, "ESPAN-04"
@@ -2931,9 +2931,9 @@ Dim Error As Boolean
         mymassage = mymassage + Chr(Red1_8) + Chr(Red9_10) + Chr(Red11_18) + Chr(Red19_20) + Chr(Green1_8) + Chr(Green9_10) + Chr(Green11_18) + Chr(Green19_20)
         mymassage = mymassage + Chr(AutoAckStatus) + Chr(AutoAckTime) + Chr(FlashRate) + Chr(NoOfInput) + Chr(FaultDelayTime) + Chr(Val(TextAddrNow.Text))
         mymassage = mymassage + Chr(DelayTime1) + Chr(DelayTime2) + Chr(DelayTime3) + Chr(DelayTime4) + Chr(DelayTime5) + Chr(DelayTime6) + Chr(DelayTime7) + Chr(DelayTime8) + Chr(DelayTime9) + Chr(DelayTime10)
-        mymassage = mymassage + Chr(DelayTime11) + Chr(DelayTime12) + Chr(DelayTime13) + Chr(DelayTime14) + Chr(DelayTime15) + Chr(DelayTime16) + Chr(DelayTime17) + Chr(DelayTime18) + Chr(DelayTime19) + Chr(DelayTime20)
+        mymassage = mymassage + Chr(DelayTime11) + Chr(DelayTime12) + Chr(DelayTime13) + Chr(DelayTime14) + Chr(DelayTime15) + Chr(DelayTime16) + Chr(DelayTime17) + Chr(DelayTime18) + Chr(DelayTime19) + Chr(DelayTime20) ' total49
         
-        mymassage = mymassage + txtphone.Text + Chr(13) '10 charrector
+        mymassage = mymassage + txtphone.Text + Chr(13) '10 + 1 charrector
         
 
         'CRC_16 Data, 62

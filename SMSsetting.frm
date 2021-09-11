@@ -1079,17 +1079,18 @@ Private Sub SAVE_btn_Click()
                 Lo_maassagelen = massagelen Mod 100
             End If
             
-            testlen = (Hi_maassagelen * 100) + Lo_maassagelen ' test data
+            'testlen = (Hi_maassagelen * 100) + Lo_maassagelen ' test data
+            Data = ""
                                                              '0x22  WRITE FAULTNAME
-            ' Data = Chr(Val(frmMainConfig.TextAddrNow.Text)) + Chr(34) + Chr(massagelen) '59 are data range(62) -3
+            'Data = Chr(Val(frmMainConfig.TextAddrNow.Text)) + Chr(34) + Chr(massagelen) '59 are data range(62) -3
+            
             Data = Chr(Val(frmMainConfig.TextAddrNow.Text)) + Chr(34) + Chr(Hi_maassagelen) + Chr(Lo_maassagelen)
             
             Data = Data + mymassage
-            
             massagelen = Len(Data)
-            'CRC_16 Data, 52
+            
             CRC_16 Data, massagelen
-            'CRC_16 Data, 49
+        
             Data = Data + Chr(CRC_High) + Chr(CRC_Low)
             frmMainConfig.MSComm1.InputLen = 0
             frmMainConfig.MSComm1.Output = Data
