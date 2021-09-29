@@ -20,7 +20,7 @@ Begin VB.Form SMSsetting
          Left            =   5700
          MaxLength       =   30
          TabIndex        =   41
-         Text            =   "Fault_15"
+         Text            =   "Fault_19"
          Top             =   6120
          Width           =   3375
       End
@@ -29,7 +29,7 @@ Begin VB.Form SMSsetting
          Left            =   5700
          MaxLength       =   30
          TabIndex        =   40
-         Text            =   "Fault_15"
+         Text            =   "Fault_11"
          Top             =   1800
          Width           =   3375
       End
@@ -945,6 +945,53 @@ Private Sub Form_Load()
        SAVE_btn.Left = 4000
        Frame1.Height = 8400
        Frame1.Width = 9400
+       
+       Label9.Top = 6180
+       Label10.Top = 6900
+       Text9.Top = 6120
+       Text10.Top = 6840
+       
+       Label9.Left = 200
+       Label10.Left = 120
+       Text9.Left = 960
+       Text10.Left = 960
+       
+       Label11.Top = 420
+       Label12.Top = 1195
+       Label13.Top = 1910
+       Label14.Top = 2625
+       Label15.Top = 3360
+       Label16.Top = 4055
+       Label17.Top = 4770
+       Label18.Top = 5490
+       
+       Label11.Left = 4800
+       Label12.Left = 4800
+       Label13.Left = 4800
+       Label14.Left = 4800
+       Label15.Left = 4800
+       Label16.Left = 4800
+       Label17.Left = 4800
+       Label18.Left = 4800
+       
+       Text11.Left = 5700
+       Text12.Left = 5700
+       Text13.Left = 5700
+       Text14.Left = 5700
+       Text15.Left = 5700
+       Text16.Left = 5700
+       Text17.Left = 5700
+       Text18.Left = 5700
+ 
+       Text11.Top = 360
+       Text12.Top = 1080
+       Text13.Top = 1800
+       Text14.Top = 2520
+       Text15.Top = 3240
+       Text16.Top = 3960
+       Text17.Top = 4680
+       Text18.Top = 5400
+                     
     End If
         
     
@@ -1075,7 +1122,7 @@ Private Sub SAVE_btn_Click()
                 Hi_maassagelen = 0
                 Lo_maassagelen = massagelen Mod 100
             Else
-                Hi_maassagelen = massagelen / 100
+                Hi_maassagelen = massagelen \ 100
                 Lo_maassagelen = massagelen Mod 100
             End If
             
