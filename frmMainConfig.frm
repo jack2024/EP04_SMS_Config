@@ -23,7 +23,7 @@ Begin VB.Form frmMainConfig
          Left            =   120
          MaxLength       =   15
          TabIndex        =   183
-         Text            =   "0623414633"
+         Text            =   "0123456789"
          Top             =   360
          Width           =   1575
       End
